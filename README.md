@@ -31,3 +31,9 @@ if (streamHandlet.isOutputAvailable() {
     // ...
 }
 ```
+
+## Before running
+```
+mvn package
+```
+Will generate jar file for Child process.
