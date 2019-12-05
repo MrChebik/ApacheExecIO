@@ -7,7 +7,7 @@ import java.io.OutputStream;
 public class ExtendedStreamHandler extends PumpStreamHandler {
     public OutputStream outputStream;
 
-    ExtendedStreamHandler(OutputStream outAndErr) {
+    public ExtendedStreamHandler(OutputStream outAndErr) {
         super(outAndErr);
     }
 
